@@ -21,5 +21,6 @@ Cross compiling to run on Synology (ARM)
 ```
 sudo apt-get install gcc-arm-linux-gnueabi
 sudo apt-get install libc6-dev-armel-cross
+sudo apt-get install libbluetooth-dev
 CC=arm-linux-gnueabi-gcc make
 ```
